@@ -1,0 +1,104 @@
+*{
+
+  body {
+  font-family: 'Segoe UI';
+  background-color: #f8f4fb;
+  color: #4c3759;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-container {
+  font-family: 'Exalumnos sin SC', serif;
+  text-align: center;
+}
+
+.nav-container a {
+  text-decoration: none;
+  color: #7e4fa3;
+  font-weight: 700;
+  font-size: 1.3rem;
+  padding: 8px 16px;
+  border-bottom: 3px solid transparent;
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-container a.active,
+.nav-container a:hover {
+  color: #a35ad0;
+  border-bottom-color: #a35ad0;
+  cursor: pointer;
+}
+
+header {
+  background-color: #e8d6f3;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Margarina';
+  font-size: 2.5rem;
+  margin: 0;
+  text-shadow: 1px 1px 0 #fff;
+}
+
+section {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  background-color: #f6f0fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px #caa0e8;
+  margin-top: 20px;
+}
+
+article img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 4px solid #dfc0f1;
+}
+
+h2 {
+  color: #7e4fa3;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #b57edc;
+  padding-bottom: 5px;
+  margin-top: 30px;
+}
+
+
+iframe {
+  width: 100%;
+  max-width: 560px;
+  height: 315px;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: ridge 3px #dfc0f1;
+}
+
+footer {
+  background-color: #dfc0f1;
+  text-align: center;
+  align-items: center;
+  padding: 10px 20px;
+  margin-top: 40px;
+}
+
+footer .logouces {
+  height: 40px;
+}
+
+footer .autor {
+  font-weight: bold;
+  color: #4c3759;
+}
+
+
+
+}
